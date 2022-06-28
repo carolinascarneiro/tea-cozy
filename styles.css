@@ -1,0 +1,251 @@
+* {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+}
+
+/* header */
+/* navbar */
+
+header {
+    /* position: fixed; */
+}
+
+.fixed {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    color: seashell;
+    justify-content: space-between;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.flex-container .logo {
+    height: 50px;
+}
+
+.span-text {
+    padding: 0px 10px;
+    text-decoration: underline;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* img container and text */
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-flex-div {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    flex-direction: column;
+    width: 1200px;
+    align-items: center;
+    align-content: center;
+}
+
+.img-flex-div img {
+    width: 100%;
+}
+
+
+.h-over-img {
+    display: inline-flex;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.h-over-img h2 {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.h-over-img h4 {
+    font-size: 22px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+}
+
+/* second part */
+
+.second-flex-container {
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    margin: 30px;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-flex-container h2 {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.second-flex-container h4 {
+    font-size: 22px;
+    margin: 5px 0px;
+    padding: 0px 10px;
+}
+
+/* second images div */
+
+.three-imgs-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.three-imgs-flex img {
+    height: 200px;
+    width: 300px;
+    padding: 12px;
+}
+
+.three-imgs-flex figcaption {
+    text-align: center;
+    font-weight: 700;
+}
+
+/* two images div */
+
+.two-imgs-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.two-imgs-flex img {
+    height: 200px;
+    width: 300px;
+    padding: 12px;
+}
+
+.two-imgs-flex figcaption {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+/* last image div */
+.last-image-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 700px;
+    width: 100%;
+    z-index: 20;
+    /* margin: 0 auto; */
+    /* position: relative; */
+}
+
+.box {
+    display: inline-flex;
+    justify-content: space-around;
+    background-image: url('img-locations-background.jpg');
+    height: 699px;
+    width: 1199px;
+    align-items: center;
+
+}
+
+.box1 {
+    padding: 10px;
+    width: 300px;
+}
+
+.central-box {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+}
+
+#title {
+    background-color: transparent;
+    margin: 0 auto;
+    /* font-size: 30px; */
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+}
+
+.box3 {
+    padding: 10px;
+    width: 300px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+div.footer-flex-one {
+    /* width: 100%; */
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+div.footer-flex-one h2 {
+    font-size: 30px;
+}
+
+div.footer-flex-one h5 {
+    font-size: 20px;
+}
+
+.footer-flex-one {
+    display: flex;
+    justify-content: center;
+}
+
+div.footer-flex-two h5 {
+    padding-left: 20px;
+    font-size: 20px;
+}
