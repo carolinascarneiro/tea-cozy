@@ -1,8 +1,12 @@
 * {
-    background-color: black;
+    /* background-color: black; */
     font-family: Helvetica, sans-serif;
     color: seashell;
-    font-size: 22px;
+    /* font-size: 22px; */
+}
+
+body {
+    background-color: black;
 }
 
 /* header */
@@ -18,6 +22,7 @@ header {
     width: 100%;
     z-index: 20;
     background-color: black;
+    font-size: 22px;
 }
 
 .flex-container {
@@ -30,6 +35,7 @@ header {
     border-bottom: 1px solid seashell;
     align-items: center;
     padding: 0px 10px;
+    font-size: 22px;
 }
 
 .flex-container .logo {
@@ -39,6 +45,7 @@ header {
 .span-text {
     padding: 0px 10px;
     text-decoration: underline;
+    font-size: 22px;
 }
 
 /* main */
@@ -66,6 +73,7 @@ main {
     width: 1200px;
     align-items: center;
     align-content: center;
+    
 }
 
 .img-flex-div img {
@@ -84,6 +92,7 @@ main {
     align-items: center;
     align-content: center;
     flex-direction: column;
+    font-size: 22px;
 }
 
 .h-over-img h2 {
@@ -128,6 +137,7 @@ main {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    font-size: 22px;
 }
 
 .three-imgs-flex img {
@@ -149,6 +159,7 @@ main {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    font-size: 22px;
 }
 
 .two-imgs-flex img {
@@ -161,6 +172,7 @@ main {
     text-align: center;
     font-weight: 700;
     margin-bottom: 50px;
+    font-size: 22px;
 }
 
 /* last image div */
@@ -182,37 +194,38 @@ main {
     height: 699px;
     width: 1199px;
     align-items: center;
+    position: relative;
+    font-size: 22px;
+}
 
+#locations {
+    font-size: 25px;
+}
+
+.title {
+    position: absolute;
+    justify-content: space-around;
+    z-index: 50;
+    background-color: transparent;
+    margin-top: 57px;
 }
 
 .box1 {
     padding: 10px;
     width: 300px;
-}
-
-.central-box {
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    justify-content: center;
-}
-
-#title {
-    background-color: transparent;
-    margin: 0 auto;
-    /* font-size: 30px; */
+    background-color: black;
 }
 
 .box2 {
-    display: flex;
-    flex-direction: column;
     padding: 10px;
     width: 300px;
+    background-color: black;
 }
 
 .box3 {
     padding: 10px;
     width: 300px;
+    background-color: black;
 }
 
 /* footer */
